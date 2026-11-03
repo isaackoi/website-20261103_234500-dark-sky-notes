@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-03T23:25:52Z",
+  "source_site_id": "glacier-c2-20261101",
+  "status": "disabled",
+  "approved_relationship_count": 0,
+  "rendered_group_count": 0,
+  "rendered_link_count": 0,
+  "rendered_site_link_count": 0,
+  "underfilled_source_page_ids": [],
+  "failures": []
+}

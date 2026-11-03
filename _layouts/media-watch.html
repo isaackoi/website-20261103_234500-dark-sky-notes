@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% assign media = page.media_watch %}
+<article class="media-watch">
+  <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Research</a> / Video</p>
+  <h1>{{ media.title | escape }}</h1>
+  <p>{{ media.summary | escape }}</p>
+  <div class="media-player" data-video-id="{{ media.video_id | escape }}">
+    <button type="button" aria-label="Play {{ media.title | escape }}">
+      <img src="{{ media.poster_url | escape }}" alt="{{ media.thumbnail_alt | escape }}"
+           width="1600" height="900" loading="eager" decoding="async" fetchpriority="high">
+      <span>Play video</span>
+    </button>
+    <noscript><a href="https://www.youtube.com/watch?v={{ media.video_id | escape }}">Watch on YouTube</a></noscript>
+  </div>
+  <h2>Chapters</h2>
+  <ol class="media-chapters">
+  {% for chapter in media.chapters %}
+    <li>
+      <a href="?t={{ chapter.start_seconds }}" data-media-start="{{ chapter.start_seconds }}">
+        <time>{{ chapter.time_label | escape }}</time> {{ chapter.title | escape }}
+      </a>
+      {% if chapter.research_links.size > 0 %}
+      <div class="media-research">
+        <h3>Research behind this section</h3>
+        <ul>
+          {% for research in chapter.research_links %}
+          <li><a href="{{ research.url | escape }}">{{ research.title | escape }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+  <h2>Transcript</h2>
+  <div class="media-transcript">
+    {% for transcript_line in media.transcript_lines %}
+    <p>{{ transcript_line | escape }}</p>
+    {% endfor %}
+  </div>
+</article>
+<script type="application/ld+json">{{ media.schema | jsonify | replace: '</', '<\/' }}</script>
+<script src="{{ '/assets/js/media-player.js' | relative_url }}" defer></script>

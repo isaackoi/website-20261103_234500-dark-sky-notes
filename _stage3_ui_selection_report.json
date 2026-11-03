@@ -1,0 +1,58 @@
+{
+  "selection_strategy": "legacy-resolvers",
+  "ui_priority": "home-first",
+  "site_shape": {
+    "report_count": 8,
+    "max_level": 1,
+    "deep_report_count": 0,
+    "level_1_count": 8,
+    "level_counts": {
+      "1": 8
+    },
+    "max_children_any_node": 0,
+    "p90_children": 0,
+    "p90_topic_children": 0,
+    "avg_children": 0.0,
+    "primary_branch_count": 8,
+    "visible_nodes_depth_2": 8,
+    "visible_nodes_depth_3": 8,
+    "max_depth": 0,
+    "max_breadth": 8,
+    "breadth_by_depth": {
+      "0": 8
+    },
+    "p90_title_length": 27,
+    "root_density_tier": "very-dense",
+    "top_branch_density_counts": {
+      "sparse": 8,
+      "balanced": 0,
+      "dense": 0,
+      "very-dense": 0
+    },
+    "long_title_branch_count": 0,
+    "single_root_tree": false,
+    "topic_labels": [
+      "Dark sky notes",
+      "Fixing light pollution",
+      "How skyglow works",
+      "Light health and sleep",
+      "Measuring darkness",
+      "What light pollution means",
+      "Where the dark remains",
+      "Wildlife and artificial light"
+    ]
+  },
+  "selected": {
+    "site_visual_identity": "verdant-field",
+    "site_visual_identity_source": "local_inference",
+    "site_visual_identity_confidence": "medium",
+    "visual_profile": "atlas",
+    "layout_archetype": "atlas",
+    "home_layout_mode": "vertical",
+    "auto_home_layout_mode": "catalog",
+    "hierarchy_viz_mode": "tree-diagram",
+    "palette": "verdant-field",
+    "motif": "orbital"
+  },
+  "candidates": []
+}

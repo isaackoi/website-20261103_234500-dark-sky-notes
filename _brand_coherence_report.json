@@ -1,0 +1,16 @@
+{
+ "brand_name": "Dark Sky Notes",
+ "brand_tokens_searched": [
+  "dark",
+  "sky",
+  "notes"
+ ],
+ "full_phrase_match_count": 9,
+ "generated_at": "2026-11-03T23:25:53",
+ "message": "Configured brand appears verbatim in page sources.",
+ "page_sources_scanned": 9,
+ "schema_version": 1,
+ "token_match_count": 0,
+ "verdict": "coherent",
+ "warning": false
+}

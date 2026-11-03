@@ -1,0 +1,608 @@
+{
+  "schema_version": 1,
+  "status": "warn",
+  "generated_at": "2026-11-03T23:25:53.135947+00:00",
+  "summary": {
+    "public_articles": 9,
+    "valid_social_previews": 9,
+    "invalid_social_previews": 0,
+    "warning_count": 9,
+    "layout_counts": {
+      "image": 9
+    }
+  },
+  "contact_sheet": "_social_preview_contact_sheet.jpg",
+  "experiment_manifest": "_social_card_experiment_manifest.jsonl",
+  "review_template": "_social_card_review_template.csv",
+  "launch_pack": "_social_launch_pack.json",
+  "launch_pack_markdown": "_social_launch_pack.md",
+  "launch_tracking": "_social_launch_tracking.csv",
+  "launch_candidate_count": 0,
+  "review_problem_codes": [
+    "weak_visual",
+    "bad_crop",
+    "too_much_text",
+    "redundant_copy",
+    "misleading_visual",
+    "generic"
+  ],
+  "pages": [
+    {
+      "page": "index.md",
+      "title": "Health Collection",
+      "permalink": "/",
+      "canonical_url": "",
+      "image": "/assets/images/social-preview-social-4a654505ec.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Research Map\", with the article title in Health Collection branding.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "",
+        "image_role": "",
+        "layout": "image",
+        "hook_source": "legacy_or_unknown",
+        "copy_text": "",
+        "template_id": "canonical-v2"
+      },
+      "experiment": {
+        "page": "index.md",
+        "permalink": "/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-a27f2daad965",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "legacy_or_unknown",
+        "visual_source": "social-preview-social-4a654505ec.jpg",
+        "treatment_inputs": {
+          "permalink": "/",
+          "title": "Health Collection",
+          "template_id": "canonical-v2",
+          "copy_source": "legacy_or_unknown",
+          "copy_text": "",
+          "visual_source": "social-preview-social-4a654505ec.jpg",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/Dark_sky_notes_e1f2a3.md",
+      "title": "Dark sky notes",
+      "permalink": "/dark-sky-notes/",
+      "canonical_url": "",
+      "image": "/assets/images/Dark_sky_notes_e1f2a3-Illustration-1-social-0ea81a443f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Dark sky notes\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "Dark_sky_notes_e1f2a3-Illustration-1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Artificial light at night is one of the most useful technologies our species has ever deployed - and one of the least carefully aimed.",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 8.218362785970232,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "Dark_sky_notes_e1f2a3-Illustration-1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 8.218362785970232,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/Dark_sky_notes_e1f2a3.md",
+        "permalink": "/dark-sky-notes/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-4a675ab0e405",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "Dark_sky_notes_e1f2a3-Illustration-1.webp",
+        "treatment_inputs": {
+          "permalink": "/dark-sky-notes/",
+          "title": "Dark sky notes",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Artificial light at night is one of the most useful technologies our species has ever deployed - and one of the least carefully aimed.",
+          "visual_source": "Dark_sky_notes_e1f2a3-Illustration-1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/Fixing_light_pollution_9f2c71.md",
+      "title": "Fixing light pollution",
+      "permalink": "/fixing-light-pollution/",
+      "canonical_url": "",
+      "image": "/assets/images/Fixing_light_pollution_9f2c71-Illustration-1-social-cf4d7341de.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Fixing light pollution\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "Fixing_light_pollution_9f2c71-Illustration-1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Light pollution is the rare pollutant that stops the moment you stop emitting it.",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 8.225254783397649,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "Fixing_light_pollution_9f2c71-Illustration-1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 8.225254783397649,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/Fixing_light_pollution_9f2c71.md",
+        "permalink": "/fixing-light-pollution/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-9426b6ffa31d",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "Fixing_light_pollution_9f2c71-Illustration-1.webp",
+        "treatment_inputs": {
+          "permalink": "/fixing-light-pollution/",
+          "title": "Fixing light pollution",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Light pollution is the rare pollutant that stops the moment you stop emitting it.",
+          "visual_source": "Fixing_light_pollution_9f2c71-Illustration-1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/How_skyglow_works_8d4e6f.md",
+      "title": "How skyglow works",
+      "permalink": "/how-skyglow-works/",
+      "canonical_url": "",
+      "image": "/assets/images/How_skyglow_works_8d4e6f-Illustration-1-social-a823b2b4a1.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"How skyglow works\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "How_skyglow_works_8d4e6f-Illustration-1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "description",
+        "copy_text": "Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a...",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 7.14655095208563,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "How_skyglow_works_8d4e6f-Illustration-1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 7.14655095208563,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/How_skyglow_works_8d4e6f.md",
+        "permalink": "/how-skyglow-works/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-ab862a8a03fc",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "description",
+        "visual_source": "How_skyglow_works_8d4e6f-Illustration-1.webp",
+        "treatment_inputs": {
+          "permalink": "/how-skyglow-works/",
+          "title": "How skyglow works",
+          "template_id": "canonical-v2",
+          "copy_source": "description",
+          "copy_text": "Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a...",
+          "visual_source": "How_skyglow_works_8d4e6f-Illustration-1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/Light_health_and_sleep_7f3a58.md",
+      "title": "Light health and sleep",
+      "permalink": "/light-health-and-sleep/",
+      "canonical_url": "",
+      "image": "/assets/images/Light_health_and_sleep_7f3a58-Illustration-1-social-49be587138.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Light health and sleep\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "Light_health_and_sleep_7f3a58-Illustration-1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Of all the harms attributed to light pollution, the human-health claims are the most contested - and the most personal, because they arrive in your...",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 6.291375924522234,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "Light_health_and_sleep_7f3a58-Illustration-1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 6.291375924522234,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/Light_health_and_sleep_7f3a58.md",
+        "permalink": "/light-health-and-sleep/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-531a2724a05f",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "Light_health_and_sleep_7f3a58-Illustration-1.webp",
+        "treatment_inputs": {
+          "permalink": "/light-health-and-sleep/",
+          "title": "Light health and sleep",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Of all the harms attributed to light pollution, the human-health claims are the most contested - and the most personal, because they arrive in your...",
+          "visual_source": "Light_health_and_sleep_7f3a58-Illustration-1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/Measuring_darkness_4e6d92.md",
+      "title": "Measuring darkness",
+      "permalink": "/measuring-darkness/",
+      "canonical_url": "",
+      "image": "/assets/images/Measuring_darkness_4e6d92-Illustration-1-social-8fdc2a7b50.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Measuring darkness\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "Measuring_darkness_4e6d92-Illustration-1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Every argument in the dark-sky world eventually becomes a number: this site is 21.4, that city is 17.8, the atlas says 80%, the star counts say ten...",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 5.416341470277471,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "Measuring_darkness_4e6d92-Illustration-1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 5.416341470277471,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/Measuring_darkness_4e6d92.md",
+        "permalink": "/measuring-darkness/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-d0c05952778d",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "Measuring_darkness_4e6d92-Illustration-1.webp",
+        "treatment_inputs": {
+          "permalink": "/measuring-darkness/",
+          "title": "Measuring darkness",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Every argument in the dark-sky world eventually becomes a number: this site is 21.4, that city is 17.8, the atlas says 80%, the star counts say ten...",
+          "visual_source": "Measuring_darkness_4e6d92-Illustration-1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/What_light_pollution_means_5b7c9d.md",
+      "title": "What light pollution means",
+      "permalink": "/what-light-pollution-means/",
+      "canonical_url": "",
+      "image": "/assets/images/What_light_pollution_means_5b7c9d-photo1-social-99f57de5e4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"What light pollution means\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "What_light_pollution_means_5b7c9d-photo1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Light pollution\" sounds like a single thing, but it is a family of four distinct problems that happen to share a cause: light going where it is not...",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 10.376876808650572,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "What_light_pollution_means_5b7c9d-photo1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 10.376876808650572,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/What_light_pollution_means_5b7c9d.md",
+        "permalink": "/what-light-pollution-means/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-621ba8880ade",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "What_light_pollution_means_5b7c9d-photo1.webp",
+        "treatment_inputs": {
+          "permalink": "/what-light-pollution-means/",
+          "title": "What light pollution means",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Light pollution\" sounds like a single thing, but it is a family of four distinct problems that happen to share a cause: light going where it is not...",
+          "visual_source": "What_light_pollution_means_5b7c9d-photo1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/Where_the_dark_remains_3d7e84.md",
+      "title": "Where the dark remains",
+      "permalink": "/where-the-dark-remains/",
+      "canonical_url": "",
+      "image": "/assets/images/Where_the_dark_remains_3d7e84-photo1-social-134834e628.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Where the dark remains\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "Where_the_dark_remains_3d7e84-photo1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Under the world atlas, darkness survives as islands: mountaintops above the haze, deserts far from megacities, small islands, and a few carefully...",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 12.396284440164955,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "medium",
+        "candidate_count": 2,
+        "candidates": [
+          {
+            "path": "Where_the_dark_remains_3d7e84-photo1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 12.396284440164955,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          },
+          {
+            "path": "Where_the_dark_remains_3d7e84-Illustration-1.webp",
+            "image_role": "infographic",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 9.278446394937523,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "infographic",
+            "containment_required": true
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/Where_the_dark_remains_3d7e84.md",
+        "permalink": "/where-the-dark-remains/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-fb5328b0219a",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "Where_the_dark_remains_3d7e84-photo1.webp",
+        "treatment_inputs": {
+          "permalink": "/where-the-dark-remains/",
+          "title": "Where the dark remains",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Under the world atlas, darkness survives as islands: mountaintops above the haze, deserts far from megacities, small islands, and a few carefully...",
+          "visual_source": "Where_the_dark_remains_3d7e84-photo1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    },
+    {
+      "page": "pages/Wildlife_and_artificial_light_2c9b41.md",
+      "title": "Wildlife and artificial light",
+      "permalink": "/wildlife-and-artificial-light/",
+      "canonical_url": "",
+      "image": "/assets/images/Wildlife_and_artificial_light_2c9b41-Illustration-1-social-04a5f3eef9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Preview card for \"Wildlife and artificial light\", with the selected article image beside the title.",
+      "layout": "image",
+      "level": 1,
+      "errors": [],
+      "warnings": [
+        "missing_site_url"
+      ],
+      "valid": true,
+      "selection_provenance": {
+        "source_path": "Wildlife_and_artificial_light_2c9b41-Illustration-1.webp",
+        "image_role": "hero",
+        "layout": "image",
+        "hook_source": "hero_summary",
+        "copy_text": "Night is a habitat the way a forest or a tidepool is: a stable environment that half the species on Earth are adapted to exploit.",
+        "template_id": "canonical-v2",
+        "relevance": 0.0,
+        "semantic_tier": 2,
+        "visual_score": 5.770510433893789,
+        "selection_reason": "best_visual_within_semantic_tier",
+        "selection_confidence": "high",
+        "candidate_count": 1,
+        "candidates": [
+          {
+            "path": "Wildlife_and_artificial_light_2c9b41-Illustration-1.webp",
+            "image_role": "hero",
+            "relevance": 0.0,
+            "semantic_tier": 2,
+            "visual_score": 5.770510433893789,
+            "eligible": true,
+            "rejection_reason": "",
+            "layout": "image",
+            "containment_required": false
+          }
+        ]
+      },
+      "experiment": {
+        "page": "pages/Wildlife_and_artificial_light_2c9b41.md",
+        "permalink": "/wildlife-and-artificial-light/",
+        "canonical_url": "",
+        "experiment_id": "",
+        "variant_id": "canonical-870255241c38",
+        "template_id": "canonical-v2",
+        "is_canonical": true,
+        "copy_source": "hero_summary",
+        "visual_source": "Wildlife_and_artificial_light_2c9b41-Illustration-1.webp",
+        "treatment_inputs": {
+          "permalink": "/wildlife-and-artificial-light/",
+          "title": "Wildlife and artificial light",
+          "template_id": "canonical-v2",
+          "copy_source": "hero_summary",
+          "copy_text": "Night is a habitat the way a forest or a tidepool is: a stable environment that half the species on Earth are adapted to exploit.",
+          "visual_source": "Wildlife_and_artificial_light_2c9b41-Illustration-1.webp",
+          "layout": "image"
+        },
+        "distribution_urls": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.2",
+  "site": {
+    "id": "glacier-c2-20261101",
+    "identity_source": "legacy_job_id",
+    "network": "unassigned",
+    "title": "Health Collection",
+    "canonical_url": "",
+    "description": "Practical guides across Health, organized for fast browsing and comparison.",
+    "primary_focus_id": "",
+    "focus_ids": [],
+    "primary_topic_ids": [],
+    "primary_subject_ids": []
+  },
+  "release_id": "release-3374bbdf2622ce51f063",
+  "previous_release_id": "",
+  "generated_at": "2026-11-03T23:25:52Z",
+  "entity_entrypoints": [],
+  "pages": [
+    {
+      "id": "glacier-c2-20261101:page:f4e4e87b4527faf1f3193ac0",
+      "logical_id": "dark-sky-notes-e1f2a3",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/dark-sky-notes/",
+      "title": "Dark sky notes",
+      "summary": "Artificial light at night is one of the most useful technologies our species has ever deployed - and one of the least carefully aimed. When light escapes upward from unshielded fixtures, over-bright signage, and building façades, it scatters in the atmosphere and returns as a dome of skyglow that hides the stars.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:6354f6da63eb3e2e74f18fb94b2dc10c77d0f6d6ecc7ab3964c8ac3c23febcfe",
+      "reconciliation_fingerprint": "sha256:22aa5c01c54efe4b36ea27db5ffa30b5577b75ef15524d179ac0caca5deeadf8",
+      "updated_at": "2026-11-03 23:25:07"
+    },
+    {
+      "id": "glacier-c2-20261101:page:0f7c4510ebe554e4bfbce152",
+      "logical_id": "fixing-light-pollution-9f2c71",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/fixing-light-pollution/",
+      "title": "Fixing light pollution",
+      "summary": "Light pollution is the rare pollutant that stops the moment you stop emitting it. There is no residue, no half-life, no remediation contract - turn the fixture off, shield it, or change its colour, and the harm ends immediately. The fixes are also mostly cheap, and many of them save money outright.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:01f319688ef6d4ae3cc1487ab980897e5bcd6600cd627bb043b104b3d26569e0",
+      "reconciliation_fingerprint": "sha256:5f41b6828cc2ff04301c613b11e3a891e28a3a954901d96f03a615e5571d9156",
+      "updated_at": "2026-11-03 23:25:14"
+    },
+    {
+      "id": "glacier-c2-20261101:page:69d2fe47661219f2cfc22b92",
+      "logical_id": "how-skyglow-works-8d4e6f",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/how-skyglow-works/",
+      "title": "How skyglow works",
+      "summary": "Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a lighting ordinance. Every lumen a fixture sends above the horizontal either escapes to space or is scattered back down by the molecules and particles in the atmosphere.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:bb084c517cf1f888a6111a3f91bc40976a0aa9aa7fc2ed14b36036a89b7ff3a9",
+      "reconciliation_fingerprint": "sha256:0dc249b40dd237eaaf58e4437e401637932267269bad15e43cdafdd7ca3c9530",
+      "updated_at": "2026-11-03 23:25:22"
+    },
+    {
+      "id": "glacier-c2-20261101:page:60aca36e9255014f307df31e",
+      "logical_id": "light-health-and-sleep-7f3a58",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/light-health-and-sleep/",
+      "title": "Light health and sleep",
+      "summary": "Of all the harms attributed to light pollution, the human-health claims are the most contested - and the most personal, because they arrive in your bedroom. The honest structure of the evidence has three tiers. At the strongest tier, controlled laboratory experiments show exactly how evening light shifts human circadian biology.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:fc7e71dd88c6768f37505d28966f29e54d23ddb605feb534b1a609d1b47028af",
+      "reconciliation_fingerprint": "sha256:ff24992ad41f0f7624b7d52c01abcafc84b1ebec58f68870fd6ab716fe53f0c3",
+      "updated_at": "2026-11-03 23:25:26"
+    },
+    {
+      "id": "glacier-c2-20261101:page:f1a17b245328267c3323dd43",
+      "logical_id": "measuring-darkness-4e6d92",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/measuring-darkness/",
+      "title": "Measuring darkness",
+      "summary": "Every argument in the dark-sky world eventually becomes a number: this site is 21.4, that city is 17.8, the atlas says 80%, the star counts say ten percent a year. Numbers make claims testable - but only if you know how each number was produced and what it can and cannot tell you.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:3b6b5c5258d7146ecd213f3447d369611c474b3f713a46db5f6a2bbf1270565f",
+      "reconciliation_fingerprint": "sha256:9ca5e516100b05032b4d5fb38d0d618505d7f09b9cc184550f45ba8cd19b90c9",
+      "updated_at": "2026-11-03 23:25:34"
+    },
+    {
+      "id": "glacier-c2-20261101:page:1262f54df65f94a5c6121656",
+      "logical_id": "What_light_pollution_means_5b7c9d",
+      "identity_source": "legacy_basename",
+      "canonical_url": "/dark-sky-notes/what-light-pollution-means/",
+      "title": "What light pollution means",
+      "summary": "Light pollution\" sounds like a single thing, but it is a family of four distinct problems that happen to share a cause: light going where it is not wanted. The four are usually named skyglow, glare, light trespass, and clutter.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:4b71d380c7e83ffaf776196fde0c1269ef30d69648a5662eaf35b2d867181fab",
+      "reconciliation_fingerprint": "sha256:9d822d13cd3115defb1b5c9ef021af693a8f1e466c7ff9480d1118e041245f2e",
+      "updated_at": "2026-11-03 23:25:29"
+    },
+    {
+      "id": "glacier-c2-20261101:page:e75326763e8afbdc46951a72",
+      "logical_id": "where-the-dark-remains-3d7e84",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/where-the-dark-remains/",
+      "title": "Where the dark remains",
+      "summary": "Under the world atlas, darkness survives as islands: mountaintops above the haze, deserts far from megacities, small islands, and a few carefully managed rural regions.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:2a77b3273e0df66103a8acf794423b42bcff615e19d77dec506df3a95e8f2a93",
+      "reconciliation_fingerprint": "sha256:d5ec2b9989eacd9cc5a5906fd7827e2d4288ef719c5118cf69b4698887d8a1f6",
+      "updated_at": "2026-11-03 23:25:51"
+    },
+    {
+      "id": "glacier-c2-20261101:page:852ad597dde379bc98bc4150",
+      "logical_id": "wildlife-and-artificial-light-2c9b41",
+      "identity_source": "article_manifest",
+      "canonical_url": "/dark-sky-notes/wildlife-and-artificial-light/",
+      "title": "Wildlife and artificial light",
+      "summary": "Night is a habitat the way a forest or a tidepool is: a stable environment that half the species on Earth are adapted to exploit. Artificial light at night (often abbreviated ALAN in the research literature) edits that habitat - abruptly, locally, and in a spectrum and timing that natural selection never previewed.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:096211649b2ba534554bfb12462afb05ddb658936b361918a02f63a7ce64c7fa",
+      "reconciliation_fingerprint": "sha256:d87b0bbccd026b131dff549bb85243b96a6e8cb9fd5dfc2b34d59d48d3de11fc",
+      "updated_at": "2026-11-03 23:25:48"
+    }
+  ]
+}

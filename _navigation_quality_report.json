@@ -1,0 +1,729 @@
+{
+  "generated_at_utc": "2026-11-03T23:25:53.158844Z",
+  "summary": {
+    "total_pages_with_permalink": 8,
+    "visible_pages": 8,
+    "hidden_pages": 0,
+    "visible_pages_without_inbound_links": 0,
+    "visible_orphan_pages": 0,
+    "visible_pages_with_empty_branch_sections": 0,
+    "visible_pages_with_missing_parent_target": 0,
+    "branch_navigation_coverage_percent": 100.0,
+    "inline_internal_edge_count": 31,
+    "inline_internal_target_page_count": 7,
+    "visible_pages_gaining_inbound_from_inline_links": 0,
+    "visible_pages_without_inline_inbound_links": 1,
+    "visible_pages_with_inline_outbound_links": 8,
+    "visible_pages_without_inline_outbound_links": 0,
+    "average_inline_inbound_links_per_visible_page": 3.88,
+    "unresolved_inline_internal_target_count": 0,
+    "related_report_edge_count": 0,
+    "related_report_cross_root_edge_count": 0,
+    "related_report_target_page_count": 0,
+    "visible_pages_with_related_report_panel": 0,
+    "visible_pages_without_related_report_panel": 8,
+    "related_report_panel_coverage_percent": 0.0,
+    "average_related_report_links_per_visible_page": 0.0,
+    "unresolved_related_report_target_count": 0,
+    "sample_edge_count": 87
+  },
+  "samples": {
+    "visible_without_inbound_links": [],
+    "visible_orphan_pages": [],
+    "visible_empty_branch_sections": [],
+    "visible_missing_parent_target": [],
+    "visible_gaining_inbound_from_inline_links": [],
+    "visible_without_inline_inbound_links": [
+      {
+        "basename": "Light_health_and_sleep_7f3a58",
+        "title": "Light health and sleep",
+        "permalink": "/light-health-and-sleep/"
+      }
+    ],
+    "visible_without_inline_outbound_links": [],
+    "visible_without_related_report_panel": [
+      {
+        "basename": "Dark_sky_notes_e1f2a3",
+        "title": "Dark sky notes",
+        "permalink": "/dark-sky-notes/"
+      },
+      {
+        "basename": "Fixing_light_pollution_9f2c71",
+        "title": "Fixing light pollution",
+        "permalink": "/fixing-light-pollution/"
+      },
+      {
+        "basename": "How_skyglow_works_8d4e6f",
+        "title": "How skyglow works",
+        "permalink": "/how-skyglow-works/"
+      },
+      {
+        "basename": "Light_health_and_sleep_7f3a58",
+        "title": "Light health and sleep",
+        "permalink": "/light-health-and-sleep/"
+      },
+      {
+        "basename": "Measuring_darkness_4e6d92",
+        "title": "Measuring darkness",
+        "permalink": "/measuring-darkness/"
+      },
+      {
+        "basename": "What_light_pollution_means_5b7c9d",
+        "title": "What light pollution means",
+        "permalink": "/what-light-pollution-means/"
+      },
+      {
+        "basename": "Where_the_dark_remains_3d7e84",
+        "title": "Where the dark remains",
+        "permalink": "/where-the-dark-remains/"
+      },
+      {
+        "basename": "Wildlife_and_artificial_light_2c9b41",
+        "title": "Wildlife and artificial light",
+        "permalink": "/wildlife-and-artificial-light/"
+      }
+    ],
+    "top_inline_internal_targets": [
+      {
+        "basename": "Fixing_light_pollution_9f2c71",
+        "title": "Fixing light pollution",
+        "permalink": "/fixing-light-pollution/",
+        "inline_inbound_count": 7
+      },
+      {
+        "basename": "Wildlife_and_artificial_light_2c9b41",
+        "title": "Wildlife and artificial light",
+        "permalink": "/wildlife-and-artificial-light/",
+        "inline_inbound_count": 6
+      },
+      {
+        "basename": "How_skyglow_works_8d4e6f",
+        "title": "How skyglow works",
+        "permalink": "/how-skyglow-works/",
+        "inline_inbound_count": 5
+      },
+      {
+        "basename": "What_light_pollution_means_5b7c9d",
+        "title": "What light pollution means",
+        "permalink": "/what-light-pollution-means/",
+        "inline_inbound_count": 5
+      },
+      {
+        "basename": "Measuring_darkness_4e6d92",
+        "title": "Measuring darkness",
+        "permalink": "/measuring-darkness/",
+        "inline_inbound_count": 4
+      },
+      {
+        "basename": "Where_the_dark_remains_3d7e84",
+        "title": "Where the dark remains",
+        "permalink": "/where-the-dark-remains/",
+        "inline_inbound_count": 3
+      },
+      {
+        "basename": "Dark_sky_notes_e1f2a3",
+        "title": "Dark sky notes",
+        "permalink": "/dark-sky-notes/",
+        "inline_inbound_count": 1
+      }
+    ],
+    "top_related_report_targets": [],
+    "unresolved_inline_internal_targets": [],
+    "unresolved_related_report_targets": [],
+    "edge_samples": [
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Light_health_and_sleep_7f3a58",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "sibling"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "sibling"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      }
+    ],
+    "inline_edge_samples": [
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Dark_sky_notes_e1f2a3",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Dark_sky_notes_e1f2a3",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Fixing_light_pollution_9f2c71",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Where_the_dark_remains_3d7e84",
+        "type": "inline_internal"
+      },
+      {
+        "from": "How_skyglow_works_8d4e6f",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Light_health_and_sleep_7f3a58",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Measuring_darkness_4e6d92",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "What_light_pollution_means_5b7c9d",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Measuring_darkness_4e6d92",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Where_the_dark_remains_3d7e84",
+        "to": "Wildlife_and_artificial_light_2c9b41",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "Fixing_light_pollution_9f2c71",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "How_skyglow_works_8d4e6f",
+        "type": "inline_internal"
+      },
+      {
+        "from": "Wildlife_and_artificial_light_2c9b41",
+        "to": "What_light_pollution_means_5b7c9d",
+        "type": "inline_internal"
+      }
+    ],
+    "related_report_edge_samples": []
+  }
+}

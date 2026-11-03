@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "page_count": 8,
+  "total_page_seconds": 142.4688,
+  "average_page_seconds": 17.8086,
+  "phase_totals_seconds": {
+    "media_svg": 140.7704,
+    "content_assembly": 0.6263,
+    "quality_write": 0.4187,
+    "youtube": 0.2121,
+    "content_cleanup_final": 0.2007,
+    "monetization": 0.195,
+    "internal_links": 0.0405,
+    "content_cleanup_initial": 0.004,
+    "preparation": 0.001
+  },
+  "slowest_pages": [
+    {
+      "base_name": "Where_the_dark_remains_3d7e84",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 24.4669,
+      "phases": {
+        "preparation": 0.0003,
+        "content_cleanup_initial": 0.0006,
+        "internal_links": 0.0007,
+        "content_cleanup_final": 0.0249,
+        "media_svg": 24.2892,
+        "youtube": 0.023,
+        "content_assembly": 0.0587,
+        "monetization": 0.0229,
+        "quality_write": 0.0465
+      }
+    },
+    {
+      "base_name": "Light_health_and_sleep_7f3a58",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.8154,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0004,
+        "internal_links": 0.0024,
+        "content_cleanup_final": 0.0262,
+        "media_svg": 19.61,
+        "youtube": 0.026,
+        "content_assembly": 0.0632,
+        "monetization": 0.0273,
+        "quality_write": 0.0598
+      }
+    },
+    {
+      "base_name": "Measuring_darkness_4e6d92",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.6664,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0005,
+        "internal_links": 0.0038,
+        "content_cleanup_final": 0.0347,
+        "media_svg": 19.4473,
+        "youtube": 0.0304,
+        "content_assembly": 0.0722,
+        "monetization": 0.0253,
+        "quality_write": 0.0521
+      }
+    },
+    {
+      "base_name": "How_skyglow_works_8d4e6f",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.4417,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0005,
+        "internal_links": 0.0081,
+        "content_cleanup_final": 0.0181,
+        "media_svg": 19.2318,
+        "youtube": 0.0268,
+        "content_assembly": 0.0905,
+        "monetization": 0.0266,
+        "quality_write": 0.0393
+      }
+    },
+    {
+      "base_name": "Wildlife_and_artificial_light_2c9b41",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.0711,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0004,
+        "internal_links": 0.0014,
+        "content_cleanup_final": 0.0252,
+        "media_svg": 18.8784,
+        "youtube": 0.0223,
+        "content_assembly": 0.0699,
+        "monetization": 0.0243,
+        "quality_write": 0.0491
+      }
+    },
+    {
+      "base_name": "Fixing_light_pollution_9f2c71",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 17.4676,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0005,
+        "internal_links": 0.0126,
+        "content_cleanup_final": 0.03,
+        "media_svg": 17.1725,
+        "youtube": 0.0387,
+        "content_assembly": 0.1119,
+        "monetization": 0.0325,
+        "quality_write": 0.0687
+      }
+    },
+    {
+      "base_name": "Dark_sky_notes_e1f2a3",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 15.7759,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0009,
+        "internal_links": 0.0088,
+        "content_cleanup_final": 0.022,
+        "media_svg": 15.5535,
+        "youtube": 0.0253,
+        "content_assembly": 0.0956,
+        "monetization": 0.0202,
+        "quality_write": 0.0495
+      }
+    },
+    {
+      "base_name": "What_light_pollution_means_5b7c9d",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 6.7638,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0002,
+        "internal_links": 0.0027,
+        "content_cleanup_final": 0.0196,
+        "media_svg": 6.5877,
+        "youtube": 0.0196,
+        "content_assembly": 0.0643,
+        "monetization": 0.0159,
+        "quality_write": 0.0537
+      }
+    }
+  ],
+  "pages": [
+    {
+      "base_name": "Dark_sky_notes_e1f2a3",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 15.7759,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0009,
+        "internal_links": 0.0088,
+        "content_cleanup_final": 0.022,
+        "media_svg": 15.5535,
+        "youtube": 0.0253,
+        "content_assembly": 0.0956,
+        "monetization": 0.0202,
+        "quality_write": 0.0495
+      }
+    },
+    {
+      "base_name": "Fixing_light_pollution_9f2c71",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 17.4676,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0005,
+        "internal_links": 0.0126,
+        "content_cleanup_final": 0.03,
+        "media_svg": 17.1725,
+        "youtube": 0.0387,
+        "content_assembly": 0.1119,
+        "monetization": 0.0325,
+        "quality_write": 0.0687
+      }
+    },
+    {
+      "base_name": "How_skyglow_works_8d4e6f",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.4417,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0005,
+        "internal_links": 0.0081,
+        "content_cleanup_final": 0.0181,
+        "media_svg": 19.2318,
+        "youtube": 0.0268,
+        "content_assembly": 0.0905,
+        "monetization": 0.0266,
+        "quality_write": 0.0393
+      }
+    },
+    {
+      "base_name": "Light_health_and_sleep_7f3a58",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.8154,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0004,
+        "internal_links": 0.0024,
+        "content_cleanup_final": 0.0262,
+        "media_svg": 19.61,
+        "youtube": 0.026,
+        "content_assembly": 0.0632,
+        "monetization": 0.0273,
+        "quality_write": 0.0598
+      }
+    },
+    {
+      "base_name": "What_light_pollution_means_5b7c9d",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 6.7638,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0002,
+        "internal_links": 0.0027,
+        "content_cleanup_final": 0.0196,
+        "media_svg": 6.5877,
+        "youtube": 0.0196,
+        "content_assembly": 0.0643,
+        "monetization": 0.0159,
+        "quality_write": 0.0537
+      }
+    },
+    {
+      "base_name": "Measuring_darkness_4e6d92",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.6664,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0005,
+        "internal_links": 0.0038,
+        "content_cleanup_final": 0.0347,
+        "media_svg": 19.4473,
+        "youtube": 0.0304,
+        "content_assembly": 0.0722,
+        "monetization": 0.0253,
+        "quality_write": 0.0521
+      }
+    },
+    {
+      "base_name": "Wildlife_and_artificial_light_2c9b41",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 19.0711,
+      "phases": {
+        "preparation": 0.0001,
+        "content_cleanup_initial": 0.0004,
+        "internal_links": 0.0014,
+        "content_cleanup_final": 0.0252,
+        "media_svg": 18.8784,
+        "youtube": 0.0223,
+        "content_assembly": 0.0699,
+        "monetization": 0.0243,
+        "quality_write": 0.0491
+      }
+    },
+    {
+      "base_name": "Where_the_dark_remains_3d7e84",
+      "level": 1,
+      "outcome": "rebuilt",
+      "total_seconds": 24.4669,
+      "phases": {
+        "preparation": 0.0003,
+        "content_cleanup_initial": 0.0006,
+        "internal_links": 0.0007,
+        "content_cleanup_final": 0.0249,
+        "media_svg": 24.2892,
+        "youtube": 0.023,
+        "content_assembly": 0.0587,
+        "monetization": 0.0229,
+        "quality_write": 0.0465
+      }
+    }
+  ],
+  "parallel": {
+    "enabled": true,
+    "mode": "process",
+    "worker_count": 3,
+    "workers_raw": "auto",
+    "max_workers": 3,
+    "progress_interval_seconds": 60.0,
+    "queued_rebuild_pages": 8,
+    "reused_pages": 0,
+    "rebuilt_pages": 8,
+    "error_pages": 0,
+    "page_work_wall_seconds": 65.9112,
+    "rebuilt_pages_per_minute": 7.2825,
+    "queued_rebuild_pages_per_minute": 7.2825,
+    "apparent_page_work_speedup": 2.1615,
+    "youtube_cache_prepare": {
+      "entries": 18,
+      "updated": false,
+      "elapsed_seconds": 0.0018
+    },
+    "process_worker_diagnostics": {
+      "completed_pages": 8,
+      "successful_pages": 8,
+      "failed_pages": 0,
+      "worker_summary": {
+        "23800": {
+          "pages": 3,
+          "successes": 3,
+          "failures": 0,
+          "total_worker_seconds": 60.1174,
+          "max_worker_seconds": 24.484,
+          "last_base_name": "Where_the_dark_remains_3d7e84"
+        },
+        "5460": {
+          "pages": 2,
+          "successes": 2,
+          "failures": 0,
+          "total_worker_seconds": 37.1767,
+          "max_worker_seconds": 19.6874,
+          "last_base_name": "Measuring_darkness_4e6d92"
+        },
+        "24996": {
+          "pages": 3,
+          "successes": 3,
+          "failures": 0,
+          "total_worker_seconds": 45.3279,
+          "max_worker_seconds": 19.4553,
+          "last_base_name": "Wildlife_and_artificial_light_2c9b41"
+        }
+      },
+      "slowest_worker_pages": [
+        {
+          "base_name": "Where_the_dark_remains_3d7e84",
+          "level": 1,
+          "success": true,
+          "worker_pid": 23800,
+          "worker_duration_seconds": 24.484,
+          "total_seconds": 24.4669,
+          "worker_started_at_utc": "2026-11-03T23:25:27.158323Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:51.625278Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "Light_health_and_sleep_7f3a58",
+          "level": 1,
+          "success": true,
+          "worker_pid": 23800,
+          "worker_duration_seconds": 19.8385,
+          "total_seconds": 19.8154,
+          "worker_started_at_utc": "2026-11-03T23:25:07.319370Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:27.134862Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "Measuring_darkness_4e6d92",
+          "level": 1,
+          "success": true,
+          "worker_pid": 5460,
+          "worker_duration_seconds": 19.6874,
+          "total_seconds": 19.6664,
+          "worker_started_at_utc": "2026-11-03T23:25:14.624252Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:34.290765Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "How_skyglow_works_8d4e6f",
+          "level": 1,
+          "success": true,
+          "worker_pid": 24996,
+          "worker_duration_seconds": 19.4553,
+          "total_seconds": 19.4417,
+          "worker_started_at_utc": "2026-11-03T23:25:03.214755Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:22.656546Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "Wildlife_and_artificial_light_2c9b41",
+          "level": 1,
+          "success": true,
+          "worker_pid": 24996,
+          "worker_duration_seconds": 19.0923,
+          "total_seconds": 19.0711,
+          "worker_started_at_utc": "2026-11-03T23:25:29.451041Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:48.522218Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "Fixing_light_pollution_9f2c71",
+          "level": 1,
+          "success": true,
+          "worker_pid": 5460,
+          "worker_duration_seconds": 17.4893,
+          "total_seconds": 17.4676,
+          "worker_started_at_utc": "2026-11-03T23:24:57.133301Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:14.600979Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "Dark_sky_notes_e1f2a3",
+          "level": 1,
+          "success": true,
+          "worker_pid": 23800,
+          "worker_duration_seconds": 15.7949,
+          "total_seconds": 15.7759,
+          "worker_started_at_utc": "2026-11-03T23:24:51.524012Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:07.299996Z",
+          "result_merge_seconds": 0.0
+        },
+        {
+          "base_name": "What_light_pollution_means_5b7c9d",
+          "level": 1,
+          "success": true,
+          "worker_pid": 24996,
+          "worker_duration_seconds": 6.7803,
+          "total_seconds": 6.7638,
+          "worker_started_at_utc": "2026-11-03T23:25:22.670379Z",
+          "worker_finished_at_utc": "2026-11-03T23:25:29.434293Z",
+          "result_merge_seconds": 0.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light" data-visual-profile="atlas" data-layout-archetype="atlas" data-visual-motif="orbital" data-visual-palette="verdant-field" data-ui-priority="home-first" data-home-layout-mode="vertical" data-auto-home-layout-mode="catalog" data-hierarchy-viz-mode="tree-diagram" data-appearance-enabled="true" data-appearance-default-open="false" data-appearance-toast-ms="5000" data-appearance-text-default="standard" data-appearance-width-default="standard" data-appearance-color-default="dark" data-mobile-layout="article-first" data-mobile-sidebar="collapsible" data-mobile-sidebar-default="closed" data-endnotes-mode="auto" data-endnotes-collapse-threshold="4" data-endnotes-initial-visible="3" data-endnotes-show-accessed="false">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How skyglow works | Dark Sky Guides</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="How skyglow works" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a lighting…" />
+<meta property="og:description" content="Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a lighting…" />
+<link rel="canonical" href="/website-20261103_234500-dark-sky-notes/how-skyglow-works/" />
+<meta property="og:url" content="/website-20261103_234500-dark-sky-notes/how-skyglow-works/" />
+<meta property="og:site_name" content="Dark Sky Guides" />
+<meta property="og:image" content="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-social-a823b2b4a1.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-11-03T23:25:22+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-social-a823b2b4a1.jpg" />
+<meta property="twitter:title" content="How skyglow works" />
+<meta name="google-site-verification" content="" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-11-03T23:25:22+00:00","datePublished":"2026-11-03T23:25:22+00:00","description":"Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a lighting…","headline":"How skyglow works","image":"/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-social-a823b2b4a1.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"/website-20261103_234500-dark-sky-notes/how-skyglow-works/"},"url":"/website-20261103_234500-dark-sky-notes/how-skyglow-works/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  
+  
+  
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Preview card for &quot;How skyglow works&quot;, with the selected article image beside the title.">
+  <meta name="twitter:image:alt" content="Preview card for &quot;How skyglow works&quot;, with the selected article image beside the title.">
+  
+  <script>
+    (function () {
+      var root = document.documentElement;
+      if (!root) {
+        return;
+      }
+
+      var mode = String(root.getAttribute("data-appearance-color-default") || "automatic").trim().toLowerCase();
+      if (mode !== "automatic" && mode !== "light" && mode !== "dark") {
+        mode = "automatic";
+      }
+
+      try {
+        var storedMode = window.localStorage.getItem("phoenix-color-mode");
+        if (!storedMode) {
+          var legacyTheme = window.localStorage.getItem("phoenix-theme");
+          if (legacyTheme === "light" || legacyTheme === "dark") {
+            storedMode = legacyTheme;
+          }
+        }
+        if (storedMode) {
+          var normalizedStoredMode = String(storedMode).trim().toLowerCase();
+          if (normalizedStoredMode === "automatic" || normalizedStoredMode === "light" || normalizedStoredMode === "dark") {
+            mode = normalizedStoredMode;
+          }
+        }
+      } catch (err) {
+        // Ignore storage read failures.
+      }
+
+      var prefersDark = false;
+      try {
+        prefersDark = Boolean(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      } catch (err) {
+        // Ignore matchMedia failures.
+      }
+
+      var resolvedTheme = mode === "automatic" ? (prefersDark ? "dark" : "light") : mode;
+      root.setAttribute("data-color-mode", mode);
+      root.setAttribute("data-theme", resolvedTheme === "dark" ? "dark" : "light");
+    })();
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/website-20261103_234500-dark-sky-notes/favicon.svg">
+  <link rel="alternate icon" href="/website-20261103_234500-dark-sky-notes/favicon.svg">
+  
+  <link rel="alternate" type="application/atom+xml" title="Dark Sky Guides" href="/website-20261103_234500-dark-sky-notes//feed.xml">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+  <script src="/website-20261103_234500-dark-sky-notes/assets/js/theme-toggle.js?v=build-1793748352"></script>
+  <script src="/website-20261103_234500-dark-sky-notes/assets/js/page-enhancements.js?v=build-1793748352" defer></script>
+  
+  
+  
+  <script src="/website-20261103_234500-dark-sky-notes/assets/js/page-article.js?v=build-1793748352" defer></script>
+  
+  
+  <link rel="stylesheet" href="/website-20261103_234500-dark-sky-notes/assets/css/main.css?v=build-1793748352">
+  
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag("consent", "default", {
+      "ad_storage": "denied",
+      "ad_user_data": "denied",
+      "ad_personalization": "denied",
+      "analytics_storage": "denied",
+      "wait_for_update": 500,
+      "region": ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]
+    
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-67VRCP5C49"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-67VRCP5C49");
+  </script>
+  <script>
+    (function () {
+      document.addEventListener("click", function (event) {
+        var target = event.target;
+        var link = target && target.closest ? target.closest("a[href]") : null;
+        if (!link) return;
+        var href = link.getAttribute("href") || "";
+        if (!/^https?:/i.test(href)) return;
+        if (window.location && link.hostname === window.location.hostname) return;
+        gtag("event", "outbound_click", {
+          link_url: href,
+          link_domain: link.hostname,
+          link_classes: link.className || ""
+        });
+      });
+    })();
+  </script>
+
+</head>
+
+  
+  
+  
+  
+  
+  
+  <body id="top" class="profile-atlas layout-atlas motif-orbital page-article" data-site-baseurl="/website-20261103_234500-dark-sky-notes/" data-ui-bundle-version="build-1793748352" data-ui-contents="Contents" data-ui-website-contents="All pages" data-ui-search="Search" data-ui-search-panel-title="Search" data-ui-open-search="Open search" data-ui-close-search="Close search" data-ui-search-all-pages="Search all pages" data-ui-search-this-page="Search this page" data-ui-search-site-placeholder="Search title, summary, or page text..." data-ui-search-empty-hint="Type to search every page on this site." data-ui-search-this-page-empty-hint="Type to search this page." data-ui-no-search-results="No pages match this search." data-ui-no-search-this-page-results="No sections on this page match this search." data-ui-search-results-count-template="{count} results" data-ui-search-kind-page-title="Page title" data-ui-search-kind-page-summary="Summary of page" data-ui-search-kind-page-location="Page location" data-ui-search-kind-section-title="Section title" data-ui-search-kind-relevant-snippet="Relevant snippet" data-ui-open-contents="Open contents" data-ui-close-contents="Close contents" data-ui-overview="Overview" data-ui-cluster-focus-path="Cluster focus path" data-ui-active-branch="Active branch" data-ui-preview-branch="Preview branch" data-ui-hover-preview="Hover preview" data-ui-selected-branch="Selected branch" data-ui-pinned-branch="Pinned branch" data-ui-previewing-focus-selected-template="Previewing {focus} while {selected} stays selected." data-ui-vertical-selected-branch-hint="Tap another branch to switch the selection, or open a page from this branch." data-ui-horizontal-pinned-branch-hint="Click another branch to pin it, or hover to preview without leaving this branch." data-ui-vertical-branch-card-hint="Tap a branch card to open its subtopics here." data-ui-horizontal-branch-card-hint="Hover to preview a branch, then click to pin it in place." data-ui-pin-branch="Pin Branch" data-ui-back-to-pinned="Back to Pinned" data-ui-back-to-overview="Back to Overview" data-ui-share-opened="Share dialog opened" data-ui-share-unavailable="Sharing unavailable; link copied" data-ui-social-image-downloaded="Image download started" data-ui-link-copied="Link copied" data-ui-citation-copied="Citation copied" data-ui-copy-failed="Copy failed" data-ui-topic-tree-navigation="Topic tree navigation" data-ui-open-report="Read more" data-ui-expand-section="Expand section" data-ui-collapse-section="Collapse section">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="container header-inner">
+    <div class="brand-block">
+      <a class="site-title" href="/website-20261103_234500-dark-sky-notes/">
+        <span class="brand-lockup">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g stroke="currentColor" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+                <path d="M64 20V34"/>
+                <path d="M64 34L44 50"/>
+                <path d="M64 34L84 50"/>
+                <path d="M44 50L28 66"/>
+                <path d="M44 50L52 66"/>
+                <path d="M84 50L76 66"/>
+                <path d="M84 50L100 66"/>
+              </g>
+              <rect x="60" y="66" width="8" height="24" fill="var(--accent)"/>
+              <path d="M64 90C50.8 82.8 27.9 82.8 15 90V105C29.4 98.6 50.3 98.6 64 105C77.7 98.6 98.6 98.6 113 105V90C100.1 82.8 77.2 82.8 64 90Z" fill="var(--accent)"/>
+              <rect x="62" y="93" width="4" height="8" fill="currentColor" opacity="0.2"/>
+              <path d="M64 10L74 20L64 30L54 20L64 10Z" fill="currentColor"/>
+              <path d="M44 42L52 50L44 58L36 50L44 42Z" fill="currentColor" opacity="0.88"/>
+              <path d="M84 42L92 50L84 58L76 50L84 42Z" fill="currentColor" opacity="0.88"/>
+              <path d="M28 60L33 65L28 70L23 65L28 60Z" fill="currentColor" opacity="0.54"/>
+              <path d="M52 60L57 65L52 70L47 65L52 60Z" fill="currentColor" opacity="0.54"/>
+              <path d="M76 60L81 65L76 70L71 65L76 60Z" fill="currentColor" opacity="0.54"/>
+              <path d="M100 60L105 65L100 70L95 65L100 60Z" fill="currentColor" opacity="0.54"/>
+            </svg>
+          </span>
+          <span class="brand-copy">
+            
+            <span class="brand-name">Dark Sky Notes</span>
+            
+            <span class="site-title-full">Dark Sky Guides</span>
+            <span class="site-title-short">Dark Sky Guides</span>
+          </span>
+        </span>
+      </a>
+      <p class="site-tagline">Start with the overview, then follow the sections that match your goal</p>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      
+      <a class="nav-pill article-header-home" href="/website-20261103_234500-dark-sky-notes/">Home</a>
+      
+      
+      
+      
+      <a class="nav-pill article-header-topics" href="/website-20261103_234500-dark-sky-notes/#browse-reports">Topics</a>
+      
+      
+      
+      
+      
+      <button class="nav-pill nav-pill-button article-header-pill article-header-contents" type="button" data-mobile-sidebar-open aria-expanded="false" aria-controls="page-sidebar">Contents</button>
+      
+      
+      <button class="nav-pill nav-pill-button site-search-nav-button" type="button" data-site-search-open aria-haspopup="dialog" aria-expanded="false">Search</button>
+      
+      <button class="nav-pill nav-pill-button article-header-pill article-header-outline" type="button" data-mobile-page-tools-toggle>Outline</button>
+      
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme" title="Switch theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4"></circle>
+          <line x1="12" y1="2.5" x2="12" y2="5.5"></line>
+          <line x1="12" y1="18.5" x2="12" y2="21.5"></line>
+          <line x1="2.5" y1="12" x2="5.5" y2="12"></line>
+          <line x1="18.5" y1="12" x2="21.5" y2="12"></line>
+          <line x1="5.3" y1="5.3" x2="7.4" y2="7.4"></line>
+          <line x1="16.6" y1="16.6" x2="18.7" y2="18.7"></line>
+          <line x1="5.3" y1="18.7" x2="7.4" y2="16.6"></line>
+          <line x1="16.6" y1="7.4" x2="18.7" y2="5.3"></line>
+        </svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M14.5 3a8.8 8.8 0 1 0 6.5 14.7 9.2 9.2 0 0 1-6.5-14.7z"></path>
+        </svg>
+      </button>
+      <div class="sidebar-dock sidebar-dock-left" data-sidebar-dock="left" hidden>
+        <button class="sidebar-dock-toggle" type="button" data-sidebar-dock-toggle="left" aria-expanded="false" aria-label="Restore page outline" title="Restore page outline">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <circle cx="9" cy="6" r="1.8"></circle>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <circle cx="15" cy="12" r="1.8"></circle>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+            <circle cx="11" cy="18" r="1.8"></circle>
+          </svg>
+        </button>
+        <div class="sidebar-dock-menu" data-sidebar-dock-menu="left" hidden>
+          <p class="sidebar-dock-title">Page outline</p>
+          <button class="sidebar-dock-action" type="button" data-sidebar-restore="left">Restore page outline</button>
+        </div>
+        <div class="sidebar-dock-toast" data-sidebar-dock-toast="left" hidden>The page outline has moved here.</div>
+      </div>
+      <div class="sidebar-dock sidebar-dock-right" data-sidebar-dock="right" hidden>
+        <button class="sidebar-dock-toggle" type="button" data-sidebar-dock-toggle="right" aria-expanded="false" aria-label="Restore contents" title="Restore contents">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <line x1="6.5" y1="6.2" x2="19.5" y2="6.2"></line>
+            <line x1="6.5" y1="12" x2="19.5" y2="12"></line>
+            <line x1="6.5" y1="17.8" x2="19.5" y2="17.8"></line>
+            <circle cx="3.4" cy="6.2" r="1"></circle>
+            <circle cx="3.4" cy="12" r="1"></circle>
+            <circle cx="3.4" cy="17.8" r="1"></circle>
+          </svg>
+        </button>
+        <div class="sidebar-dock-menu" data-sidebar-dock-menu="right" hidden>
+          <p class="sidebar-dock-title">All pages</p>
+          <button class="sidebar-dock-action" type="button" data-sidebar-restore="right">Restore contents</button>
+        </div>
+        <div class="sidebar-dock-toast" data-sidebar-dock-toast="right" hidden>The contents panel has moved here.</div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+    <main class="page-content" id="main-content" aria-label="Content" tabindex="-1">
+      <div class="container">
+        <div class="layout-grid layout-grid-article">
+          
+          <aside class="sidebar" id="page-sidebar" data-mobile-sidebar-panel>
+            <div class="mobile-sidebar-header">
+              <p class="mobile-sidebar-title">All pages</p>
+              <button class="sidebar-tree-btn" type="button" data-mobile-sidebar-close aria-label="Close contents">Close</button>
+            </div>
+            <div class="sidebar-section-header">
+              <p class="sidebar-section-title">All pages</p>
+              <button class="sidebar-tree-btn sidebar-hide-btn" type="button" data-sidebar-hide="right" aria-label="Close contents">Close</button>
+            </div>
+            <div class="sidebar-scroll-region">
+            
+            <div class="appearance-control" data-appearance-control>
+              <button class="appearance-toggle" type="button" data-appearance-button aria-expanded="false" aria-controls="appearance-panel" aria-label="Show appearance settings" title="Show appearance settings">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <circle cx="8" cy="12" r="3"></circle>
+                  <circle cx="16" cy="12" r="3"></circle>
+                  <path d="M11 12h2"></path>
+                  <path d="M2.5 11.8H5"></path>
+                  <path d="M19 11.8h2.5"></path>
+                </svg>
+              </button>
+              <div class="appearance-toast" data-appearance-toast hidden>The appearance menu has moved here.</div>
+              <section class="appearance-panel" id="appearance-panel" data-appearance-panel hidden>
+                <div class="appearance-panel-head">
+                  <p class="appearance-panel-title">Appearance</p>
+                  <button class="appearance-hide" type="button" data-appearance-hide>Close</button>
+                </div>
+                <fieldset class="appearance-group">
+                  <legend>Text</legend>
+                  <div class="appearance-group-options">
+                    <label class="appearance-option"><input type="radio" name="appearance-text" value="small" data-appearance-text><span class="appearance-option-label">Small</span></label>
+                    <label class="appearance-option"><input type="radio" name="appearance-text" value="standard" data-appearance-text><span class="appearance-option-label">Standard</span></label>
+                    <label class="appearance-option"><input type="radio" name="appearance-text" value="large" data-appearance-text><span class="appearance-option-label">Large</span></label>
+                  </div>
+                </fieldset>
+                <fieldset class="appearance-group">
+                  <legend>Width</legend>
+                  <div class="appearance-group-options">
+                    <label class="appearance-option"><input type="radio" name="appearance-width" value="standard" data-appearance-width><span class="appearance-option-label">Standard</span></label>
+                    <label class="appearance-option"><input type="radio" name="appearance-width" value="wide" data-appearance-width><span class="appearance-option-label">Wide</span></label>
+                  </div>
+                </fieldset>
+                <fieldset class="appearance-group">
+                  <legend>Theme</legend>
+                  <div class="appearance-group-options">
+                    <label class="appearance-option"><input type="radio" name="appearance-color" value="automatic" data-appearance-color><span class="appearance-option-label">Automatic</span></label>
+                    <label class="appearance-option"><input type="radio" name="appearance-color" value="light" data-appearance-color><span class="appearance-option-label">Light</span></label>
+                    <label class="appearance-option"><input type="radio" name="appearance-color" value="dark" data-appearance-color><span class="appearance-option-label">Dark</span></label>
+                  </div>
+                </fieldset>
+              </section>
+            </div>
+            
+          
+
+
+
+
+
+
+
+<div class="sidebar-tree-actions sidebar-tree-actions-top" data-sidebar-tree-actions-top hidden>
+  <button class="sidebar-tree-btn" type="button" data-sidebar-expand-all>Expand all</button>
+  <button class="sidebar-tree-btn" type="button" data-sidebar-collapse-all>Collapse all</button>
+</div>
+
+
+<nav class="sidebar-nav" aria-label="Topic tree navigation" data-sidebar-nav>
+
+  <ul class="sidebar-list" data-sidebar-level="1">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/dark-sky-notes/" title="Dark sky notes" aria-label="Read more: Dark sky notes" data-sidebar-search="dark sky notes dark sky notes">Dark sky notes</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/fixing-light-pollution/" title="Fixing light pollution" aria-label="Read more: Fixing light pollution" data-sidebar-search="fixing light pollution fixing light pollution">Fixing light pollution</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link is-current" href="/website-20261103_234500-dark-sky-notes/how-skyglow-works/" title="How skyglow works" aria-label="Read more: How skyglow works" data-sidebar-search="how skyglow works how skyglow works" aria-current="page">How skyglow works</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/light-health-and-sleep/" title="Light health and sleep" aria-label="Read more: Light health and sleep" data-sidebar-search="light health and sleep light health and sleep">Light health and sleep</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/measuring-darkness/" title="Measuring darkness" aria-label="Read more: Measuring darkness" data-sidebar-search="measuring darkness measuring darkness">Measuring darkness</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/what-light-pollution-means/" title="What light pollution means" aria-label="Read more: What light pollution means" data-sidebar-search="what light pollution means what light pollution means">What light pollution means</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/where-the-dark-remains/" title="Where the dark remains" aria-label="Read more: Where the dark remains" data-sidebar-search="where the dark remains where the dark remains">Where the dark remains</a>
+      
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="sidebar-item" data-sidebar-level="1">
+      
+      <a class="sidebar-link" href="/website-20261103_234500-dark-sky-notes/wildlife-and-artificial-light/" title="Wildlife and artificial light" aria-label="Read more: Wildlife and artificial light" data-sidebar-search="wildlife and artificial light wildlife and artificial light">Wildlife and artificial light</a>
+      
+    </li>
+    
+  </ul>
+
+</nav>
+
+
+<div class="sidebar-tools" role="search" aria-label="Search">
+  <label class="sidebar-tools-label" for="sidebar-filter">Search</label>
+  <div class="sidebar-search-tabs" role="tablist" aria-label="Search" data-sidebar-search-tabs>
+    <button class="sidebar-search-tab is-active" type="button" role="tab" aria-selected="true" data-sidebar-search-tab="all">Search all pages</button>
+    <button class="sidebar-search-tab" type="button" role="tab" aria-selected="false" tabindex="-1" data-sidebar-search-tab="page">Search this page</button>
+  </div>
+  <div class="sidebar-filter-row">
+    <input id="sidebar-filter" class="sidebar-filter" type="search" placeholder="Search title, summary, or page text..." data-sidebar-filter aria-controls="sidebar-filter-results">
+    <button class="sidebar-filter-clear sidebar-tree-btn" type="button" data-sidebar-filter-clear hidden>Clear</button>
+  </div>
+  <div id="sidebar-filter-results" class="sidebar-filter-results" data-sidebar-filter-results hidden></div>
+  <p class="sidebar-filter-status" data-sidebar-filter-status aria-live="polite"></p>
+</div>
+<div class="sidebar-tree-actions">
+  <button class="sidebar-tree-btn" type="button" data-sidebar-expand-all>Expand all</button>
+  <button class="sidebar-tree-btn" type="button" data-sidebar-collapse-all>Collapse all</button>
+</div>
+
+
+
+            </div>
+          </aside>
+          
+          <section class="main-content article-content">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <nav class="mobile-quick-nav" aria-label="Quick navigation">
+              <button class="nav-pill nav-pill-button mobile-sidebar-trigger" type="button" data-mobile-sidebar-open aria-expanded="false" aria-controls="page-sidebar">Contents</button>
+              
+              
+              
+              <button class="nav-pill nav-pill-button" type="button" data-quick-search data-site-search-open aria-haspopup="dialog" aria-expanded="false">Search</button>
+              <button class="nav-pill nav-pill-button" type="button" data-mobile-page-tools-toggle>Outline</button>
+            </nav>
+            <nav class="article-breadcrumbs" aria-label="Breadcrumb">
+              <a href="/website-20261103_234500-dark-sky-notes/">Home</a>
+              
+              <span class="crumb-sep" aria-hidden="true">/</span>
+              <span class="breadcrumb-current" title="How skyglow works">How skyglow works</span>
+            </nav>
+            <script type="application/ld+json">
+              {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {"@type": "ListItem", "position": 1, "name": "Home", "item": "/website-20261103_234500-dark-sky-notes/"}
+                  
+                  
+                  ,{"@type": "ListItem", "position": 2, "name": "How skyglow works", "item": "/website-20261103_234500-dark-sky-notes/how-skyglow-works/"}
+                ]
+              }
+            </script>
+            
+            
+            
+            
+            
+            
+            
+            
+            <script type="application/ld+json">
+              {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "How skyglow works",
+                "description": "Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a lighting ordinance. Every lumen a fixture sends above the horizontal either escapes to space or is scattered back down by the molecules and particles in the atmosphere.",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "/website-20261103_234500-dark-sky-notes/how-skyglow-works/"
+                }
+                ,
+                "image": "/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-social-a823b2b4a1.jpg"
+                
+                ,
+                "datePublished": "2026-11-03T23:25:22+00:00"
+                
+                ,
+                
+                "author": {
+                  "@type": "Organization",
+                  "name": "Dark Sky Notes",
+                  "url": "/website-20261103_234500-dark-sky-notes/"
+                },
+                
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Dark Sky Notes",
+                  "url": "/website-20261103_234500-dark-sky-notes/"
+                }
+              }
+            </script>
+            
+            
+            
+            
+            
+            <header class="article-hero">
+              <div class="article-hero-grid">
+                <div class="article-hero-copy">
+                  
+                  <h1>How skyglow works</h1>
+                  
+                  <p class="article-hero-summary">Skyglow looks like magic - a dome of light hanging over a city - but it is bookkeeping, and the same numbers fill the light-level tables of a lighting ordinance. Every lumen a fixture sends above the horizontal either escapes to space or is scattered back down by the molecules and particles in the atmosphere.</p>
+                  
+                  
+                  <p class="article-hero-date">
+                    <span>Published</span>
+                    <time datetime="2026-11-03T23:25:22+00:00">03 Nov 2026</time>
+                  </p>
+                  
+                  
+                  <div class="article-hero-meta" aria-label="Report details">
+                    
+                    
+                    <span class="article-hero-stat">3 graphics</span>
+                    
+                  </div>
+                  
+                  
+                  
+                </div>
+              </div>
+            </header>
+            <details class="mobile-page-tools" id="mobile-page-tools" data-mobile-page-tools hidden>
+              <summary class="mobile-page-tools-summary">
+                <span class="mobile-page-tools-title">Page outline</span>
+                <span class="mobile-page-tools-hint">Jump by section</span>
+              </summary>
+              <div class="mobile-page-tools-body">
+                <div class="page-tools-inline-header">
+                  <p class="page-tools-label">On this page</p>
+                  <button class="sidebar-tree-btn page-tools-close" type="button" data-mobile-page-tools-close aria-label="Close page outline panel">Close</button>
+                </div>
+                <div class="page-tools-shell">
+                  <div class="page-toc-actions page-toc-actions-top mobile-page-toc-actions" data-page-toc-actions-top hidden>
+                    <button class="sidebar-tree-btn" type="button" data-page-toc-expand-all>Expand all</button>
+                    <button class="sidebar-tree-btn" type="button" data-page-toc-collapse-all>Collapse all</button>
+                  </div>
+                  <nav class="page-toc mobile-page-toc" data-mobile-page-toc aria-label="On this page"></nav>
+                  <div class="page-toc-actions mobile-page-toc-actions">
+                    <button class="sidebar-tree-btn" type="button" data-page-toc-expand-all>Expand all</button>
+                    <button class="sidebar-tree-btn" type="button" data-page-toc-collapse-all>Collapse all</button>
+                  </div>
+                </div>
+                <div class="mobile-page-tools-actions">
+                  
+                  <a class="nav-pill" href="#endnotes">Jump to endnotes</a>
+                  
+                  <div class="page-research-actions" aria-label="Report actions">
+                    
+                    <button class="page-action-button" type="button" data-page-share data-page-action>Share</button>
+                    
+                    <button class="page-action-button" type="button" data-page-copy-link data-page-action>Copy link</button>
+                    
+                    <button class="page-action-button" type="button" data-page-download-social data-page-action>Download image</button>
+                    
+                    <button class="page-action-button" type="button" data-page-copy-citation data-page-action>Cite page</button>
+                    <button class="page-action-button" type="button" data-page-print data-page-action>Print / save</button>
+                  </div>
+                  <button class="nav-pill nav-pill-button" type="button" data-mobile-back-to-top>Back to top</button>
+                </div>
+              </div>
+            </details>
+            
+            <article class="article-body"><p class="article-attribution" data-article-attribution="1"><span class="attribution-updated" data-attribution-updated="1">Updated 2026-11-03</span></p>
+
+<!-- phoenix-provider: z2-authored-research (journal DOIs verified against Crossref/DOI resolutions on 2026-11-03; institutional URLs probed HTTP 200 on 2026-11-03; YouTube references sourced via yt-dlp search and verified live on 2026-11-03) mode=editorial session=darksky-c2-20261103 -->
+
+<div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube-nocookie.com/embed/kiUMplqeyjQ" title="Debunking the myth about light pollution, and understanding how it affects SNR." loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=kiUMplqeyjQ" target="_blank" rel="noopener noreferrer">Debunking the myth about light pollution, and understanding how it affects SNR.</a></p><p class="youtube-embed-meta">Channel: Deep Sky Detail</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=kiUMplqeyjQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=kiUMplqeyjQ">Open on YouTube</a></p></div></div></div>
+
+<h2 id="the-two-routes-upward">The two routes upward</h2>
+
+<p>Light reaches the sky by two routes with different consequences.</p>
+
+<!-- HIERARCHY_NAV_START -->
+<aside class="related-reports" aria-label="Related pages">
+  <h2>Follow this branch</h2>
+  <div class="related-reports-grid">
+  <section class="related-reports-section related-reports-section-closest">
+    <h3>More in this section</h3>
+    <ul>
+      <li><a href="/website-20261103_234500-dark-sky-notes/wildlife-and-artificial-light/" data-phoenix-title-provenance="title"><span class="article-branch-link-short">Wildlife and artificial light</span></a></li>
+      <li><a href="/website-20261103_234500-dark-sky-notes/what-light-pollution-means/" data-phoenix-title-provenance="title"><span class="article-branch-link-short">What light pollution means</span></a></li>
+      <li><a href="/website-20261103_234500-dark-sky-notes/fixing-light-pollution/" data-phoenix-title-provenance="title"><span class="article-branch-link-short">Fixing light pollution</span></a></li>
+      <li><a href="/website-20261103_234500-dark-sky-notes/light-health-and-sleep/" data-phoenix-title-provenance="title"><span class="article-branch-link-short">Light health and sleep</span></a></li>
+      <li><a href="/website-20261103_234500-dark-sky-notes/where-the-dark-remains/" data-phoenix-title-provenance="title"><span class="article-branch-link-short">Where the dark remains</span></a></li>
+    </ul>
+  </section>
+  </div>
+</aside>
+<!-- HIERARCHY_NAV_END -->
+
+<p><strong>Direct emission</strong> is light that leaves the fixture already aimed upward: the unshielded globe lamp, the wall pack tilted 45 degrees, the advertising sign lit from below, the laser-like beam of a floodlight missed by its mounting bracket. Direct emission is pure waste - by definition it lights nothing on the ground - and it is the component a full-cutoff fixture eliminates completely. Fixing fixture geometry is the one intervention with no trade-offs at all.</p>
+
+<p><strong>Reflected emission</strong> is ground-reflected light: illumination that does its job on the pavement and then bounces. Roughly a tenth of ground light reflects upward from typical road and roof surfaces; pale surfaces reflect more. Reflected light is the irreducible floor of skyglow - you can only reduce it by lighting less - and it is why even perfectly shielded cities still glow.</p>
+
+<p>The split matters because the two routes respond differently to policy. Shielding laws eliminate the first; dimming, curfews, and lower reflectance trim the second. A city that only shields still glows; a city that only dims still wastes direct uplight.</p>
+
+<figure class="article-media-figure article-media-figure-illustration"><img src="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-dark.svg" alt="Skyglow Physics Breakdown" data-theme-src-dark="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-dark.svg" data-theme-src-light="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-1-light.svg" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low" /><figcaption class="article-media-caption"><span class="article-media-caption-label">Illustration 1</span><span class="article-media-caption-text">Skyglow Physics Breakdown</span></figcaption></figure>
+
+<h2 id="what-the-atmosphere-does-with-it">What the atmosphere does with it</h2>
+
+<p>Once light is in the air, two scattering processes send it back down.</p>
+
+<p><strong>Rayleigh scattering</strong> - scattering off molecules of air themselves - is strongly wavelength-dependent, varying as one over the fourth power of wavelength. Blue light at 450 nanometres scatters roughly two and a half times more than red light at 700 nm. This is the same physics that makes the daytime sky blue, operating at night on city light.</p>
+
+<p><strong>Mie scattering</strong> - scattering off particles: haze, water droplets, dust - is much less colour-dependent and much stronger in absolute terms when the air is dirty or humid. Mie scattering is why a humid or hazy night over a city glows so much more than a dry, crisp one at identical emission: the particles act as a suspended screen.</p>
+
+<p>The practical consequences follow directly. Skyglow is worse in humid climates and in haze. It is worse downwind of urban aerosols. And - the part that decides fixture policy - because the scattered share of blue light is intrinsically larger, <em>the colour of the lamp changes the skyglow even at identical lumens on the ground</em>. Field and modelling studies of light-source spectral power distribution find that blue-rich white sources (correlated colour temperature of about 4000 K and above) produce substantially more visible and environmentally effective skyglow than amber or low-pressure sodium equivalents delivering the same ground illumination.[1]</p>
+
+<div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube-nocookie.com/embed/77HGL38EKFI" title="DarkSky | Light Levels Explained | Ordinance Templates" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=77HGL38EKFI" target="_blank" rel="noopener noreferrer">DarkSky | Light Levels Explained | Ordinance Templates</a></p><p class="youtube-embed-meta">Channel: DarkSky International</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=77HGL38EKFI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=77HGL38EKFI">Open on YouTube</a></p></div></div></div>
+
+<h2 id="spectrum-the-led-shift">Spectrum: the LED shift</h2>
+
+<p>For decades the classic urban glow was orange, because low-pressure sodium lamps emit almost all their light in a narrow yellow band. That spectrum was terrible for colour rendering but gentle on the sky: narrow-band yellow scatters relatively little and is far from the peak sensitivity of the dark-adapted human eye (and of many ecological light sensors).</p>
+
+<p>The LED transition changed the spectrum. Early municipal LED retrofits, optimised for efficiency and colour rendering, used white light rich in short wavelengths around 450 nm - exactly the band that Rayleigh scattering loves, that the dark-adapted eye is most sensitive to, and that the human circadian system monitors. Modelling work comparing lamp spectra at matched ground brightness shows the skyglow penalty of blue-rich white clearly; amber and warm-white (2700 K or lower, and better still narrow-band amber) trade a little colour rendering for a large reduction in sky impact.[1] Meanwhile satellite radiance measurements over the LED transition era show total uplight radiance continuing to rise in most of the world - efficiency gains converted into more light rather than less - with the caveat that the satellite band most used for tracking under-detects blue-rich sources, so the true growth in blue light is larger than the record shows.[2]</p>
+
+<h2 id="how-far-skyglow-travels">How far skyglow travels</h2>
+
+<p>Skyglow is a regional pollutant, not a local one. A large metro area visibly brightens the sky 50-100 kilometres away; the world atlas computes artificial brightness above natural thresholds across entire countries. Three mechanisms spread it:</p>
+
+<div class="content-enhancement content-enhancement--step-flow">
+
+  <ol>
+    <li><strong>Scattered light has no loyalty to its source.</strong> A photon scattered downward over your dark observing site may have been emitted by a fixture 80 km away.</li>
+    <li><strong>The bright dome competes with the horizon.</strong> Even when the zenith over a rural site stays dark, the city dome above the horizon destroys low-altitude observing - where comets, aurorae, and much deep-sky work live.</li>
+    <li><strong>Aerosols amplify distance effects.</strong> Particle layers between you and a distant city scatter its light toward you efficiently, which is why distant domes bloom on hazy nights.</li>
+  </ol>
+
+</div>
+
+<p>This geography is why dark-sky protection is organised at landscape scale - reserves and parks covering hundreds of square kilometres, described in <a href="/website-20261103_234500-dark-sky-notes/where-the-dark-remains/">Where the dark remains</a> - and why a single well-lit distribution warehouse on the edge of a dark region is a regional, not a local, problem.</p>
+
+<figure class="article-media-figure article-media-figure-illustration"><img src="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-2-dark.svg" alt="City Glow vs Natural Sky" data-theme-src-dark="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-2-dark.svg" data-theme-src-light="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-2-light.svg" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low" /><figcaption class="article-media-caption"><span class="article-media-caption-label">Illustration 2</span><span class="article-media-caption-text">City Glow vs Natural Sky</span></figcaption></figure>
+
+<h2 id="the-honest-numbers-on-how-bad-it-is">The honest numbers on how bad it is</h2>
+
+<p>The atlas work gives the scale of the problem in three statements, each worth quoting carefully. More than 80% of the world’s population lives under skies brighter than the natural baseline; for the United States and Europe the figure exceeds 99%. Roughly a third of humanity - including about 60% of Europeans and nearly 80% of North Americans - cannot see the Milky Way from where they live.[3] And citizen-science star counts between 2011 and 2022 found the naked-eye sky degrading fast enough to correspond to sky brightness growing on the order of ten percent per year, far faster than satellite-only estimates suggested.[4]</p>
+
+<h2 id="from-mechanism-to-fix">From mechanism to fix</h2>
+
+<p>Every rule in the practical guides falls out of this physics: shield fixtures (kill direct emission), dim and trim hours (cut both routes), choose warm or amber spectrum (cut the scattering and the biological effectiveness of what escapes), and control reflections where you can. None of it requires darkness as a lifestyle; it requires light aimed, sized, timed, and coloured for its job - the checklist in Fixing light pollution.</p>
+
+<h2 id="related-guides">Related guides</h2>
+
+<p>The definitions behind this guide are in <a href="/website-20261103_234500-dark-sky-notes/what-light-pollution-means/">What light pollution means</a>; the instruments that turn skyglow into numbers are covered in Measuring darkness; and the biological stakes of the same escaped photons - for animals and for human sleep - are in <a href="/website-20261103_234500-dark-sky-notes/wildlife-and-artificial-light/">Wildlife and artificial light</a> and Light, health and sleep.</p>
+
+<figure class="article-media-figure article-media-figure-illustration"><img src="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-3-dark.svg" alt="Fixing Light Pollution Rules" data-theme-src-dark="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-3-dark.svg" data-theme-src-light="/website-20261103_234500-dark-sky-notes/assets/images/How_skyglow_works_8d4e6f-Illustration-3-light.svg" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low" /><figcaption class="article-media-caption"><span class="article-media-caption-label">Illustration 3</span><span class="article-media-caption-text">Fixing Light Pollution Rules</span></figcaption></figure>
+
+<h2 id="further-reading">Further reading</h2>
+
+<ul>
+  <li>Christian B. Luginbuhl, Paul Boley and Donald R. Davis, “The impact of light source spectral power distribution on sky glow”, <em>JQSRT</em> (2014) <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1016/j.jqsrt.2013.12.004" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Christian B. Luginbuhl, Paul A. Boley and Donald R. Davis, &quot;The impact of light source spectral power distribution on sky glow&quot;, *Journal of Quantitative Spectroscopy and Radiative Transfer*. https://doi.org/10.1016/j.jqsrt.2013.12.004. Accessed 3 November 2026">[Christian B. Luginbuhl, Paul A. Boley and Donald R. Davis, "The impact of light source spectral power distribution on sky glow", <em>Journal of Quantitative Spectroscopy and Radiative Transfer</em>. <a href="https://doi.org/10.1016/j.jqsrt.2013.12.004">https://doi.org/10.1016/j.jqsrt.2013.12.004</a>. Accessed 3 November 2026]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Christian B. Luginbuhl, Paul A. Boley and Donald R. Davis, "The impact of light source spectral power distribution on sky glow", <em>Journal of Quantitative Spectroscopy and Radiative Transfer</em>. https://doi.org/10.1016/j.jqsrt.2013.12.004. Accessed 3 November 2026</span><span class="citation-popover-snippet">Open source on doi.org.</span></span></span></li>
+  <li>Fabio Falchi and colleagues, “The new world atlas of artificial night sky brightness”, <em>Science Advances</em> (2016) <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1126/sciadv.1600377" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Fabio Falchi, Pierantonio Cinzano, David Duriscoe, Christopher Kyba, Christopher Elvidge, Kimberly Baugh and colleagues, &quot;The new world atlas of artificial night sky brightness&quot;, *Science Advances*. https://doi.org/10.1126/sciadv.1600377. Accessed 3 November 2026">[Fabio Falchi, Pierantonio Cinzano, David Duriscoe, Christopher Kyba, Christopher Elvidge, Kimberly Baugh and colleagues, "The new world atlas of artificial night sky brightness", <em>Science Advances</em>. <a href="https://doi.org/10.1126/sciadv.1600377">https://doi.org/10.1126/sciadv.1600377</a>. Accessed 3 November 2026]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Fabio Falchi, Pierantonio Cinzano, David Duriscoe, Christopher Kyba, Christopher Elvidge, Kimberly Baugh and colleagues, "The new world atlas of artificial night sky brightness", <em>Science Advances</em>. https://doi.org/10.1126/sciadv.1600377. Accessed 3 November 2026</span><span class="citation-popover-snippet">Open source on doi.org.</span></span></span></li>
+  <li>Christopher Kyba and colleagues, “Artificially lit surface of Earth at night increasing in radiance and extent”, <em>Science Advances</em> (2017) <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1126/sciadv.1701528" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Christopher C. M. Kyba and colleagues, &quot;Artificially lit surface of Earth at night increasing in radiance and extent&quot;, *Science Advances*. https://doi.org/10.1126/sciadv.1701528. Accessed 3 November 2026">[Christopher C. M. Kyba and colleagues, "Artificially lit surface of Earth at night increasing in radiance and extent", <em>Science Advances</em>. <a href="https://doi.org/10.1126/sciadv.1701528">https://doi.org/10.1126/sciadv.1701528</a>. Accessed 3 November 2026]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Christopher C. M. Kyba and colleagues, "Artificially lit surface of Earth at night increasing in radiance and extent", <em>Science Advances</em>. https://doi.org/10.1126/sciadv.1701528. Accessed 3 November 2026</span><span class="citation-popover-snippet">Open source on doi.org.</span></span></span></li>
+</ul>
+
+<h2 id="endnotes">Endnotes</h2>
+
+<ol>
+  <li>Christian B. Luginbuhl, Paul A. Boley and Donald R. Davis, “The impact of light source spectral power distribution on sky glow”, <em>Journal of Quantitative Spectroscopy and Radiative Transfer</em>. <a href="https://doi.org/10.1016/j.jqsrt.2013.12.004">https://doi.org/10.1016/j.jqsrt.2013.12.004</a>. Accessed 3 November 2026.</li>
+  <li>Christopher C. M. Kyba and colleagues, “Artificially lit surface of Earth at night increasing in radiance and extent”, <em>Science Advances</em>. <a href="https://doi.org/10.1126/sciadv.1701528">https://doi.org/10.1126/sciadv.1701528</a>. Accessed 3 November 2026.</li>
+  <li>Fabio Falchi, Pierantonio Cinzano, David Duriscoe, Christopher Kyba, Christopher Elvidge, Kimberly Baugh and colleagues, “The new world atlas of artificial night sky brightness”, <em>Science Advances</em>. <a href="https://doi.org/10.1126/sciadv.1600377">https://doi.org/10.1126/sciadv.1600377</a>. Accessed 3 November 2026.</li>
+  <li>Christopher C. M. Kyba, Yıldırım Altıntaş, Constance Walker and Mark Newhouse, “Citizen scientists report global rapid reductions in the visibility of stars from 2011 to 2022”, <em>Science</em>. <a href="https://doi.org/10.1126/science.abq7781">https://doi.org/10.1126/science.abq7781</a>. Accessed 3 November 2026.</li>
+  <li>Pierantonio Cinzano, Fabio Falchi and Christopher D. Elvidge, “The first World Atlas of the artificial night sky brightness”, <em>Monthly Notices of the Royal Astronomical Society</em>. <a href="https://doi.org/10.1046/j.1365-8711.2001.04882.x">https://doi.org/10.1046/j.1365-8711.2001.04882.x</a>. Accessed 3 November 2026.</li>
+  <li>DarkSky International, “Light Levels Explained | Ordinance Templates”, YouTube. <a href="https://www.youtube.com/watch?v=77HGL38EKFI">https://www.youtube.com/watch?v=77HGL38EKFI</a>. Accessed 3 November 2026.</li>
+  <li>Deep Sky Detail, “Debunking the myth about light pollution, and understanding how it affects SNR.”, YouTube. <a href="https://www.youtube.com/watch?v=kiUMplqeyjQ">https://www.youtube.com/watch?v=kiUMplqeyjQ</a>. Accessed 3 November 2026.</li>
+</ol>
+
+              
+              
+            </article>
+            
+
+
+            
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </section>
+          
+          <aside class="page-tools" id="page-tools-panel" data-page-tools>
+            <div class="page-tools-card">
+              <div class="page-tools-header">
+                <p class="page-tools-label">On this page</p>
+                <button class="sidebar-tree-btn sidebar-hide-btn page-tools-close" type="button" data-sidebar-hide="left" aria-label="Close page outline panel">Close</button>
+              </div>
+              <div class="page-tools-shell">
+                <div class="page-toc-actions page-toc-actions-top" data-page-toc-actions-top hidden>
+                  <button class="sidebar-tree-btn" type="button" data-page-toc-expand-all>Expand all</button>
+                  <button class="sidebar-tree-btn" type="button" data-page-toc-collapse-all>Collapse all</button>
+                </div>
+                <nav class="page-toc" data-page-toc aria-label="On this page"></nav>
+                <div class="page-toc-actions">
+                  <button class="sidebar-tree-btn" type="button" data-page-toc-expand-all>Expand all</button>
+                  <button class="sidebar-tree-btn" type="button" data-page-toc-collapse-all>Collapse all</button>
+                </div>
+              </div>
+            </div>
+            <div class="page-tools-card page-tools-actions">
+              
+              <a class="nav-pill" href="#endnotes">Jump to endnotes</a>
+              
+              <div class="page-research-actions" aria-label="Report actions">
+                
+                <button class="page-action-button" type="button" data-page-share data-page-action>Share</button>
+                
+                <button class="page-action-button" type="button" data-page-copy-link data-page-action>Copy link</button>
+                
+                <button class="page-action-button" type="button" data-page-download-social data-page-action>Download image</button>
+                
+                <button class="page-action-button" type="button" data-page-copy-citation data-page-action>Cite page</button>
+                <button class="page-action-button" type="button" data-page-print data-page-action>Print / save</button>
+              </div>
+              <button class="nav-pill nav-pill-button" type="button" data-back-to-top>Back to top</button>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-grid">
+      <section class="footer-brand" aria-label="Site summary">
+        <p class="footer-kicker">Topic guide</p>
+        <p class="footer-title">Health Collection</p>
+        <p class="footer-note">Browse the overview, major sections, and focused guides.</p>
+      </section>
+      <nav class="footer-group" aria-label="Footer navigation">
+        <p class="footer-heading">Navigate</p>
+        <div class="footer-links">
+          <a class="footer-link" href="/website-20261103_234500-dark-sky-notes/">Home</a>
+          <a class="footer-link" href="/website-20261103_234500-dark-sky-notes/#browse-reports">Browse pages</a>
+          <button class="footer-link footer-link-button" type="button" data-footer-back-to-top>Back to top</button>
+        </div>
+      </nav>
+      <section class="footer-group" aria-label="Quick links">
+        <p class="footer-heading">Quick links</p>
+        <p class="footer-copy">Jump straight into the overview pages that anchor this collection.</p>
+        <div class="footer-links">
+      <a class="footer-link" href="/website-20261103_234500-dark-sky-notes/dark-sky-notes/">Dark sky notes</a>
+      <a class="footer-link" href="/website-20261103_234500-dark-sky-notes/fixing-light-pollution/">Fixing light pollution</a>
+      <a class="footer-link" href="/website-20261103_234500-dark-sky-notes/how-skyglow-works/">How skyglow works</a>
+      <a class="footer-link" href="/website-20261103_234500-dark-sky-notes/light-health-and-sleep/">Light health and sleep</a>
+        </div>
+      </section>
+      <section class="footer-group" aria-label="How to use this site">
+        <p class="footer-heading">Use this site</p>
+        <p class="footer-copy">Start on the homepage. Use Search pages to search the collection, and open Topics or Outline when you want extra navigation.</p>
+      </section>
+    </div>
+    <div class="footer-meta">
+      <div class="footer-meta-left">
+        <p>&copy; 2026 Dark Sky Notes. All rights reserved.</p>
+        <p class="footer-meta-links">
+          <a class="footer-meta-link" href="/website-20261103_234500-dark-sky-notes/about/">About</a> &middot;
+          <a class="footer-meta-link" href="/website-20261103_234500-dark-sky-notes/privacy-policy/">Privacy Policy</a> &middot;
+          <a class="footer-meta-link" href="/website-20261103_234500-dark-sky-notes/terms/">Terms</a> &middot;
+          <a class="footer-meta-link" href="/website-20261103_234500-dark-sky-notes/disclosure/">Affiliate &amp; AI Disclosure</a>
+        </p>
+      </div>
+      <p>Pages are researched and written with AI assistance and may contain errors. Some outbound links may earn Dark Sky Notes a commission. <a class="footer-meta-link" href="/website-20261103_234500-dark-sky-notes/disclosure/" aria-label="Learn more about our affiliate disclosure">Learn more.</a></p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

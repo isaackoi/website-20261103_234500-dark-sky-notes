@@ -1,0 +1,179 @@
+{
+  "generated_at_utc": "2026-11-03T23:25:53.143099Z",
+  "mode": "warn_only",
+  "summary": {
+    "pages_with_stage2_metadata": 7,
+    "pages_review_recommended": 0,
+    "warning_reason_counts": {}
+  },
+  "pages": [
+    {
+      "basename": "Dark_sky_notes_e1f2a3",
+      "title": "Dark sky notes",
+      "infographic_count": 3,
+      "templates": [
+        "cards_grid",
+        "versus",
+        "timeline_chain"
+      ],
+      "roles": [
+        "summary",
+        "comparison",
+        "chronology"
+      ],
+      "titles": [
+        "Three Buckets of Wasted Light",
+        "Fixing Light Pollution: Three Solutions",
+        "Rising Light Footprint: 2010s Data"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.286,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "Fixing_light_pollution_9f2c71",
+      "title": "Fixing light pollution",
+      "infographic_count": 3,
+      "templates": [
+        "process_steps",
+        "myth_facts",
+        "list_vertical"
+      ],
+      "roles": [
+        "process",
+        "comparison",
+        "summary"
+      ],
+      "titles": [
+        "Homeowner Lighting Audit Steps",
+        "Policy Vocabulary for Councils",
+        "LED Retrofit Traps and Fixes"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.0,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "How_skyglow_works_8d4e6f",
+      "title": "How skyglow works",
+      "infographic_count": 3,
+      "templates": [
+        "quadrant",
+        "tug_of_war",
+        "timeline_history"
+      ],
+      "roles": [
+        "comparison",
+        "other",
+        "chronology"
+      ],
+      "titles": [
+        "Skyglow Physics Breakdown",
+        "City Glow vs Natural Sky",
+        "Fixing Light Pollution Rules"
+      ],
+      "role_diversity_count": 2,
+      "max_title_similarity": 0.0,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "Light_health_and_sleep_7f3a58",
+      "title": "Light health and sleep",
+      "infographic_count": 3,
+      "templates": [
+        "process_chevrons",
+        "diverging_bars",
+        "timeline_staircase"
+      ],
+      "roles": [
+        "process",
+        "data",
+        "chronology"
+      ],
+      "titles": [
+        "From Lab to Bedroom: The Evidence Chain",
+        "Evidence Tiers: Lab vs Streetlights vs Folklore",
+        "Nighttime Interventions: What Actually Works"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.25,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "Measuring_darkness_4e6d92",
+      "title": "Measuring darkness",
+      "infographic_count": 3,
+      "templates": [
+        "cards_grid",
+        "versus",
+        "timeline_history"
+      ],
+      "roles": [
+        "summary",
+        "comparison",
+        "chronology"
+      ],
+      "titles": [
+        "Tools for Measuring Darkness",
+        "Sky Brightness Scale Ranges",
+        "Globe at Night Trend Analysis"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.0,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "Where_the_dark_remains_3d7e84",
+      "title": "Where the dark remains",
+      "infographic_count": 3,
+      "templates": [
+        "fact_box_sidebar",
+        "process_pipeline",
+        "quadrant"
+      ],
+      "roles": [
+        "summary",
+        "process",
+        "comparison"
+      ],
+      "titles": [
+        "IDSP Certification Tiers",
+        "Fixing Light Pollution Checklist",
+        "Visiting Etiquette Rules"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.0,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "Wildlife_and_artificial_light_2c9b41",
+      "title": "Wildlife and artificial light",
+      "infographic_count": 3,
+      "templates": [
+        "timeline_chain",
+        "tug_of_war",
+        "hub_ring"
+      ],
+      "roles": [
+        "chronology",
+        "other",
+        "other"
+      ],
+      "titles": [
+        "Biological Clocks Disrupted",
+        "Tribute in Light vs Nature",
+        "Four Rules for Wildlife Lighting"
+      ],
+      "role_diversity_count": 1,
+      "max_title_similarity": 0.0,
+      "review_recommended": false,
+      "warning_reasons": []
+    }
+  ]
+}

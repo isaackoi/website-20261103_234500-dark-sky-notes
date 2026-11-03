@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-03T23:25:53.134392+00:00",
+  "campaign_id": "social-launch-phoenix-site",
+  "selection_mode": "deterministic_existing_assets",
+  "max_candidates": 5,
+  "candidate_count": 0,
+  "site_url_valid": false,
+  "production_cost": {
+    "remote_model_calls": 0,
+    "additional_card_renders": 0,
+    "additional_image_variants": 0
+  },
+  "operator_control": "Review copy, community rules, and relevance before posting.",
+  "diagnosis_guide": {
+    "low_impressions": "distribution_or_audience_problem",
+    "impressions_without_engagement": "topic_or_post_framing_problem",
+    "engagement_without_clicks": "card_hook_or_call_to_action_problem",
+    "clicks_without_engaged_sessions": "landing_page_expectation_mismatch"
+  },
+  "candidates": []
+}

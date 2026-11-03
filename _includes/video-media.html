@@ -1,0 +1,109 @@
+{%- comment -%}
+Video presentation contract.
+
+A visitor must be able to see *which* videos a page carries without loading
+any third-party player, and no YouTube request may happen until they ask for
+it.  The default state is a real thumbnail with a play affordance; the embed
+replaces it only on activation.  Without JavaScript the poster stays a normal
+link to YouTube, so the feature degrades to an outbound reference rather than
+an empty box.
+{%- endcomment -%}
+{%- if site.data.video_media -%}
+{%- assign vm_entries = site.data.video_media.pages[page.url] -%}
+{%- if vm_entries and vm_entries.size > 0 -%}
+{%- assign vm_youtube = vm_entries | where: "provider", "youtube" -%}
+{%- assign vm_vimeo = vm_entries | where: "provider", "vimeo" -%}
+{%- assign vm_all = vm_youtube | concat: vm_vimeo -%}
+{%- if vm_all.size > 0 -%}
+<section class="video-media" aria-labelledby="video-media-heading">
+  <div class="video-media-head">
+    <h2 id="video-media-heading">{{ ui.video_media_heading | default: 'Watch: the video evidence' }}</h2>
+    <p class="video-media-intro">{{ ui.video_media_intro | default: 'Each clip was checked against YouTube before publication. The player loads only when you press play.' }}</p>
+  </div>
+  <ul class="video-media-grid">
+    {%- for vm in vm_all -%}
+    {%- if vm.provider == 'youtube' -%}
+    {%- assign vm_watch = 'https://www.youtube.com/watch?v=' | append: vm.id -%}
+    {%- assign vm_embed = 'https://www.youtube-nocookie.com/embed/' | append: vm.id -%}
+    {%- assign vm_embed = vm_embed | append: '?autoplay=1&rel=0' -%}
+    {%- assign vm_poster = 'https://i.ytimg.com/vi/' | append: vm.id -%}
+    {%- assign vm_poster = vm_poster | append: '/hqdefault.jpg' -%}
+    {%- else -%}
+    {%- assign vm_watch = 'https://vimeo.com/' | append: vm.id -%}
+    {%- assign vm_embed = 'https://player.vimeo.com/video/' | append: vm.id -%}
+    {%- assign vm_poster = '' -%}
+    {%- endif -%}
+    <li class="video-media-item">
+      <a class="video-media-poster"
+         href="{{ vm_watch | escape }}"
+         data-video-id="{{ vm.id | escape }}"
+         data-embed-src="{{ vm_embed | escape }}"
+         data-video-title="{{ vm.title | escape }}"
+         data-video-provider="{{ vm.provider | escape }}">
+        {%- if vm_poster != '' %}
+        <img class="video-media-thumb" src="{{ vm_poster | escape }}"
+             alt="Video thumbnail: {{ vm.title | escape }}"
+             width="480" height="360" loading="lazy" decoding="async">
+        {%- endif %}
+        <span class="video-media-scrim" aria-hidden="true"></span>
+        <span class="video-media-play" aria-hidden="true"><span class="video-media-play-tri"></span></span>
+        <span class="video-media-badge">{{ vm.provider | capitalize }}</span>
+      </a>
+      <div class="video-media-caption">
+        <p class="video-media-title">{{ vm.title | escape }}</p>
+        <p class="video-media-author">{{ vm.author | escape }}</p>
+        <p class="video-media-actions">
+          <a class="video-media-watch" href="{{ vm_watch | escape }}" target="_blank" rel="noopener noreferrer">Open on {{ vm.provider | capitalize }}</a>
+        </p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ul>
+  <script type="application/ld+json">
+  [
+  {%- assign vm_first = true -%}
+  {%- for vm in vm_all -%}
+  {%- if vm.provider == 'youtube' -%}
+  {%- assign vm_embed_ld = 'https://www.youtube-nocookie.com/embed/' | append: vm.id -%}
+  {%- else -%}
+  {%- assign vm_embed_ld = 'https://player.vimeo.com/video/' | append: vm.id -%}
+  {%- endif -%}
+  {%- unless vm_first -%},{%- endunless -%}
+  {"@context":"https://schema.org","@type":"VideoObject","name":{{ vm.title | jsonify }},"embedUrl":{{ vm_embed_ld | jsonify }}{% if vm.author %},"author":{"@type":"Organization","name":{{ vm.author | jsonify }}}{% endif %}{% if vm.upload_date %},"uploadDate":"{{ vm.upload_date }}"{% endif %}{% if vm.duration %},"duration":"{{ vm.duration }}"{% endif %}{% if vm.thumbnail_url %},"thumbnailUrl":{{ vm.thumbnail_url | jsonify }}{% endif %}}
+  {%- assign vm_first = false -%}
+  {%- endfor %}
+  ]
+  </script>
+</section>
+<script>
+(function () {
+  function activate(link) {
+    var src = link.getAttribute('data-embed-src');
+    if (!src) { return; }
+    var frame = document.createElement('iframe');
+    frame.className = 'video-media-embed';
+    frame.setAttribute('src', src);
+    frame.setAttribute('title', link.getAttribute('data-video-title') || 'Video');
+    frame.setAttribute('loading', 'lazy');
+    frame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    frame.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+    frame.setAttribute('allowfullscreen', '');
+    link.parentNode.replaceChild(frame, link);
+  }
+  document.addEventListener('click', function (event) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { return; }
+    var node = event.target;
+    while (node && node !== document) {
+      if (node.classList && node.classList.contains('video-media-poster')) {
+        event.preventDefault();
+        activate(node);
+        return;
+      }
+      node = node.parentNode;
+    }
+  });
+}());
+</script>
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}

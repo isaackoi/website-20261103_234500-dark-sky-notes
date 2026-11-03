@@ -1,0 +1,10 @@
+{
+ "schema_version": 1,
+ "constraint": "TITLE_SERP_BOUND_V1",
+ "bound": 60,
+ "audited": 8,
+ "violations": 0,
+ "findings": [],
+ "grants_authority": false,
+ "enforced_findings": []
+}
